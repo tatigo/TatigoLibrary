@@ -78,10 +78,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JITMessageProcessorConsole\SampleConsole.csproj">
-      <Project>{22d8ec8f-bc44-47cd-85c9-b01b468e558a}</Project>
-      <Name>SampleConsole</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TatigoLibrary.Data\TatigoLibrary.Data.csproj">
       <Project>{0947414e-7070-4f4d-921d-49049f11fffa}</Project>
       <Name>TatigoLibrary.Data</Name>
