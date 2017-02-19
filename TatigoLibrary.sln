@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TatigoLibrary.Data", "TatigoLibrary.Data\TatigoLibrary.Data.csproj", "{0947414E-7070-4F4D-921D-49049F11FFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TatigoLibrary.Common", "TatigoLibrary.Common\TatigoLibrary.Common.csproj", "{620201D5-08DD-4DD5-B7B1-A57F075BD5FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGenerator", "SQLGenerator\SQLGenerator.csproj", "{3CDE387C-1C14-48FB-8623-77520C050FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsole", "JITMessageProcessorConsole\SampleConsole.csproj", "{22D8EC8F-BC44-47CD-85C9-B01B468E558A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWindowsService", "JITMessageProcessingWindowsService\SampleWindowsService.csproj", "{875D9E23-3889-49F9-A037-492B9E42A1C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0947414E-7070-4F4D-921D-49049F11FFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0947414E-7070-4F4D-921D-49049F11FFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0947414E-7070-4F4D-921D-49049F11FFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0947414E-7070-4F4D-921D-49049F11FFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620201D5-08DD-4DD5-B7B1-A57F075BD5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620201D5-08DD-4DD5-B7B1-A57F075BD5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620201D5-08DD-4DD5-B7B1-A57F075BD5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620201D5-08DD-4DD5-B7B1-A57F075BD5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDE387C-1C14-48FB-8623-77520C050FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDE387C-1C14-48FB-8623-77520C050FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDE387C-1C14-48FB-8623-77520C050FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDE387C-1C14-48FB-8623-77520C050FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D8EC8F-BC44-47CD-85C9-B01B468E558A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D8EC8F-BC44-47CD-85C9-B01B468E558A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D8EC8F-BC44-47CD-85C9-B01B468E558A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D8EC8F-BC44-47CD-85C9-B01B468E558A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875D9E23-3889-49F9-A037-492B9E42A1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875D9E23-3889-49F9-A037-492B9E42A1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875D9E23-3889-49F9-A037-492B9E42A1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875D9E23-3889-49F9-A037-492B9E42A1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
