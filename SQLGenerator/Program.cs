@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
-
-//Internal use only
+//_________________________________________________________________________________
+// Created for internal use only.
+// Will generate sql tables based on POCO objects founnd in referenced executable
+//---------------------------------------------------------------------------------
 namespace SQLGenerator
 {
     class Program
