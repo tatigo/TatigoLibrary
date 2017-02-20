@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 
+//Internal use only
 namespace SQLGenerator
 {
     class Program
@@ -14,7 +15,7 @@ namespace SQLGenerator
             List<TableGenerator> tables = new List<TableGenerator>();
 
             // Pass assembly name via argument
-            Assembly a = Assembly.LoadFrom(@"C:\Develop\Faurecia\Golcuk\JITMessageProcessor\JITMessageProcessorConsole\bin\Debug\JITMessageProcessorConsole.exe");
+            Assembly a = Assembly.LoadFrom(@"C:\console.exe");
             Type[] types = a.GetTypes();
 
             // Get Types in the assembly.
