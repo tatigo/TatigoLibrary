@@ -17,7 +17,7 @@ namespace SQLGenerator
             List<TableGenerator> tables = new List<TableGenerator>();
 
             // Pass assembly name via argument
-            Assembly a = Assembly.LoadFrom(@"C:\console.exe");
+            Assembly a = Assembly.LoadFrom(@"C:\console.exe");//TG: change to global setting
             Type[] types = a.GetTypes();
 
             // Get Types in the assembly.
